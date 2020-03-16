@@ -11,7 +11,9 @@ import {
 
 const Header: FC<HeaderProps> = ({ siteTitle }) => (
   <nav className={styles.header} class="navbar justify-content-between">
-    <a class="navbar-brand">CL</a>
+    <a class="navbar-brand" href="/">
+      CL
+    </a>
     <h1 className={styles.h1}>
       <Link className="mr-5 icon" to="/projects">
         projects
