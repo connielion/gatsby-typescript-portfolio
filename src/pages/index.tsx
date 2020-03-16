@@ -7,7 +7,7 @@ import SEO from "../components/Seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Connie's Portfolio | Home" />
     <div className="container">
       <div className="my-5"></div>
       <div className="display-3">
@@ -27,8 +27,8 @@ const IndexPage = () => (
       <div className="h2 code mt-2 mb-3">{"}"}</div>
       <div className="h2 code mt-4 mb-3">else {"{"}</div>
       <div className="text-muted mx-5 my-4 h4 text-justify info">
-        <span className="hl">return </span>
-        <span className="text-warning">"Have a nice day~"</span>
+        <code>return </code>
+        <span className="text-secondary">"Have a nice day~"</span>
       </div>
       <div className="h2 code mt-2 mb-3">{"}"}</div>
     </div>

@@ -10,7 +10,8 @@ import {
 } from "react-icons/fa"
 
 const Header: FC<HeaderProps> = ({ siteTitle }) => (
-  <header className={styles.header}>
+  <nav className={styles.header} class="navbar justify-content-between">
+    <a class="navbar-brand">CL</a>
     <h1 className={styles.h1}>
       <Link className="mr-5 icon" to="/projects">
         projects
@@ -29,7 +30,7 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
     <div className={styles.themeToggleContainer}>
       <ThemeToggle />
     </div>
-  </header>
+  </nav>
 )
 
 export default Header

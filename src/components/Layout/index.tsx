@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React, { FC } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import React, { FC } from "react"
+import { useStaticQuery, graphql } from "gatsby"
 
-import Header from '../Header';
-import 'normalize.css';
-import styles from './styles.module.css';
-import './global.css';
+import Header from "../Header"
+import "normalize.css"
+import styles from "./styles.module.css"
+import "./global.css"
 
 const Layout: FC = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -22,19 +22,18 @@ const Layout: FC = ({ children }) => {
         }
       }
     }
-  `);
+  `)
 
   return (
     <div className={styles.page}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className={styles.main}>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        &nbsp;
+      <footer className="mx-auto text-muted">
+        © {new Date().getFullYear()} built by Connie with &nbsp;
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
