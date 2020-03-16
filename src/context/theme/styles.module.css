@@ -1,0 +1,9 @@
+.light {
+  --color-text: #1f2c3b;
+  --color-bg: #fff;
+}
+
+.dark {
+  --color-text: whitesmoke;
+  --color-bg: #1f2c3b;
+}

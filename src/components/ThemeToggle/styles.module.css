@@ -1,0 +1,13 @@
+.icon {
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+  color: #ff8a00;
+}
