@@ -29,8 +29,7 @@ const Layout: FC = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className={styles.main}>{children}</main>
       <footer className="mx-auto text-muted">
-        © {new Date().getFullYear()} built by Connie with &nbsp;
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        © {new Date().getFullYear()} built by Connie Lai
       </footer>
     </div>
   )
