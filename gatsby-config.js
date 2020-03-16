@@ -1,8 +1,8 @@
-require('ts-node').register();
+require("ts-node").register()
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby TypeScript Starter themed with CSS variables`,
+    title: `Connie's Portfolio`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@room_js`,
   },

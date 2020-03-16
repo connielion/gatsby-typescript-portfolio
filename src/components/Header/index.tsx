@@ -21,13 +21,13 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
       <Link className="mr-5 icon" to="/about">
         about
       </Link>
-      <Link className="mr-5 icon" to="https://github.com/connielion">
+      <a className="mr-5 icon" href="https://github.com/connielion">
         <Github />
-      </Link>
+      </a>
 
-      <Link className="mr-5 icon" to="mailto:connielion011@gmail.com">
+      <a className="mr-5 icon" href="mailto:connielion011@gmail.com">
         <Mail />
-      </Link>
+      </a>
     </h1>
     <div className={styles.themeToggleContainer}>
       <ThemeToggle />

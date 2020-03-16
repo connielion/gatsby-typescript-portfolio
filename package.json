@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-typescript-themes",
   "private": false,
-  "description": "A starter for Gatsby with TypeScript support and built-in themes",
+  "description": "Connie's Portfolio 2020",
   "version": "0.1.0",
-  "author": "Yuri Drabik <yurist38@mail.ru>",
+  "author": "Connie Lai",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^2.19.7",
