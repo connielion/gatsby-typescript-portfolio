@@ -1,12 +1,6 @@
 .light {
   --color-text: #1f2c3b;
-  --color-bg: linear-gradient(
-    0deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 67, 121, 1) 28%,
-    rgba(8, 87, 140, 1) 46%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  --color-bg: whitesmoke;
 }
 
 .dark {
