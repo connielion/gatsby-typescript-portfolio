@@ -12,7 +12,8 @@ const IndexPage = () => (
       <div className="my-5"></div>
       <div className="display-3">
         Hello, I'm
-        <span className="text-primary"> Connie Lai.</span>
+        <span className="text-primary"> Connie Lai.</span>{" "}
+        <button className="btn-warning btn">Resume</button>
       </div>
       <div className="h2 code mt-4 mb-3">
         <div className="h2 code mt-4 mb-3">
