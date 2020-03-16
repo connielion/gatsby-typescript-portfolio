@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto|Source+Code+Pro&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +11,8 @@ p {
 
 * {
   box-sizing: border-box;
+}
+
+.hl {
+  color: rgb(226, 29, 226);
 }
