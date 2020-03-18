@@ -28,9 +28,6 @@ const Layout: FC = ({ children }) => {
     <div className={styles.page}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className={styles.main}>{children}</main>
-      <footer className="mx-auto text-muted">
-        © {new Date().getFullYear()} built by Connie Lai
-      </footer>
     </div>
   )
 }

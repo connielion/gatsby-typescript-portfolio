@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import Image from "../components/Image"
 import SEO from "../components/Seo"
+import { IoMdOpen as Open } from "react-icons/io"
 
 const IndexPage = () => (
   <Layout>
@@ -11,14 +12,15 @@ const IndexPage = () => (
     <div className="container">
       <div className="row">
         <div className="my-5"></div>
-        <div className="display-3">
+        <div className="display-4 intro">
           Hello, I'm
           <span className="text-primary"> Connie Lai.</span>{" "}
           <a
             className="btn-warning btn"
+            target="_blank"
             href="https://drive.google.com/open?id=13r0l13AVT1VNREgyKcCyptmBrWZCv-Zc"
           >
-            My Resume
+            My Resume <Open />
           </a>
         </div>
       </div>

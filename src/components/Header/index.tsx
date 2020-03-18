@@ -32,12 +32,11 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
       <Link className="mr-5 icon" to="/about">
         about
       </Link>
+      <Link className="mr-5 icon" to="/contact">
+        <Mail />
+      </Link>
       <a className="mr-5 icon" href="https://github.com/connielion">
         <Github />
-      </a>
-
-      <a className="mr-5 icon" href="mailto:connielion011@gmail.com">
-        <Mail />
       </a>
     </h1>
     <div className={styles.themeToggleContainer}>

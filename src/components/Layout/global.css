@@ -17,3 +17,10 @@ p {
 * {
   box-sizing: border-box;
 }
+
+.contact-ul > li {
+  list-style: none;
+  font-size: 18px;
+}
+
+/* end media query */

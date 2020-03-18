@@ -13,11 +13,13 @@ const AboutPage: FC = () => (
         <h1>Who am I?</h1>
         <p>
           Well, I studied biology in college and did agricultural research as a
-          lab assistant afterwards. While I was working, I had time to explore
-          and learnt coding at a local institution called Geekwise Academy, part
-          of Bitwise Industries. I completed all of their classes on these
-          topics: HTML5, CSS3, Mobile-Friendly Sites(Bootstrap 3), ES6
-          Javascript, and Angular 2+.
+          lab assistant afterwards.
+          <br />
+          <br />
+          While I was working, I had time to explore and learnt coding at a
+          local institution called Geekwise Academy, part of Bitwise Industries.
+          I completed all of their classes on these topics: HTML5, CSS3,
+          Mobile-Friendly Sites(Bootstrap 3), ES6 Javascript, and Angular 2+.
         </p>
       </div>
       <div className="row">
