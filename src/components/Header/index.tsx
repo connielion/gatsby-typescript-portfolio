@@ -11,9 +11,13 @@ import {
 
 const Header: FC<HeaderProps> = ({ siteTitle }) => (
   <nav className={styles.header} class="navbar justify-content-between">
-    <a class="navbar-brand" href="/">
-      CL
-    </a>
+    <img
+      src={"/logo.png"}
+      alt="Logo"
+      className="navbar-brand"
+      href="/"
+      style={{ maxHeight: "80px", maxWidth: "100px" }}
+    />
     <h1 className={styles.h1}>
       <Link className="mr-5 icon" to="/">
         home
