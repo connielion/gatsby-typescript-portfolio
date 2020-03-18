@@ -5,25 +5,24 @@ import Layout from "../components/Layout"
 import Image from "../components/Image"
 import SEO from "../components/Seo"
 import { IoMdOpen as Open } from "react-icons/io"
-import Bounce from "react-reveal/Bounce"
+import { Bounce, Flip } from "react-reveal"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="container">
       <div className="row">
-        <div className="my-5"></div>
         <div className="display-4 intro">
           <Bounce left>
-            <span className="text-primary"> Hello, I'm Connie.</span>{" "}
-            <a
-              className="btn-warning btn"
-              target="_blank"
-              href="https://drive.google.com/open?id=13r0l13AVT1VNREgyKcCyptmBrWZCv-Zc"
-            >
-              My Resume <Open />
-            </a>
+            <span className="intro"> Hello, I'm Connie.</span>{" "}
           </Bounce>
+          <a
+            className="btn-warning btn"
+            target="_blank"
+            href="https://drive.google.com/open?id=13r0l13AVT1VNREgyKcCyptmBrWZCv-Zc"
+          >
+            My Resume <Open />
+          </a>
         </div>
       </div>
       {/* Code Section */}
@@ -38,7 +37,7 @@ const IndexPage = () => (
       >
         <div className="h2 code mt-4 mb-3">
           <div className="h2 code mt-4 mb-3">
-            if (<span>you_Are_Hiring</span>) {"{"}
+            if (<span>U_R_Hiring</span>) {"{"}
           </div>
         </div>
         <div className="mx-5 my-4 h4 text-justify info">
