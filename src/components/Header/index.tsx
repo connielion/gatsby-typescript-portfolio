@@ -23,7 +23,7 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
     </Link>
     {/* // style={{ maxHeight: "80px", maxWidth: "100px" }} */}
     <h1 className={styles.h1}>
-      <Link className="mr-5 icon" to="/projects">
+      <Link className="mr-5 icon" to="/">
         <Home />
       </Link>
       <Link className="mr-5 icon" to="/projects">

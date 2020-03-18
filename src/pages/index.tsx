@@ -24,6 +24,7 @@ const IndexPage = () => (
       </div>
       {/* Code Section */}
       <div
+        className="scp"
         style={{
           backgroundColor: "#283341",
           color: "whitesmoke",
