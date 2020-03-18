@@ -49,6 +49,7 @@ const AboutPage: FC = () => (
           <li>Draw - my hobby ever since I was little.</li>
         </ul>
       </div>
+      {/* end of row2 */}
     </div>
   </Layout>
 )
