@@ -6,11 +6,15 @@ import SEO from "../components/Seo"
 import { FaPhone as Phone, FaLinkedin as LinkedIn } from "react-icons/fa"
 import { FiAtSign as At } from "react-icons/fi"
 import Rotate from "react-reveal/Rotate"
-
+import Clock from "react-live-clock"
 const ContactPage: FC = () => (
   <Layout>
     <SEO title="Contact" />
     <div className="container">
+      <h3>
+        I'm based in California. Current time here is:{" "}
+        <Clock format={"HH:mm:ss"} ticking={true} timezone={"US/Pacific"} />
+      </h3>
       <ul className="contact-ul">
         <Rotate top left>
           <li>
