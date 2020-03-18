@@ -4,6 +4,8 @@ import { HeaderProps } from "./types"
 import ThemeToggle from "../ThemeToggle"
 import styles from "./styles.module.scss"
 import {
+  FaHome as Home,
+  FaRegFolderOpen as Folder,
   FaTwitter as Twitter,
   FaGithub as Github,
   FaEnvelope as Mail,
@@ -22,7 +24,10 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
     {/* // style={{ maxHeight: "80px", maxWidth: "100px" }} */}
     <h1 className={styles.h1}>
       <Link className="mr-5 icon" to="/projects">
-        projects
+        <Home />
+      </Link>
+      <Link className="mr-5 icon" to="/projects">
+        <Folder />
       </Link>
       <Link className="mr-5 icon" to="/about">
         about
