@@ -5,11 +5,43 @@ import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 import { GiSandSnake } from "react-icons/gi"
 import Jello from "react-reveal/Jello"
+import {
+  DiReact,
+  DiNodejs as Node,
+  DiHtml5 as Html,
+  DiCss3 as Css,
+  DiMongodb as Mongo,
+  DiPostgresql as Pg,
+  DiAws as Aws,
+  DiGit as Git,
+  DiJavascript1 as Js,
+  DiSass as Sass,
+  DiTravis as Travis,
+  DiBootstrap as Bootstrap,
+  DiDocker as Docker,
+  DiPython as Py,
+} from "react-icons/di"
 
 const AboutPage: FC = () => (
   <Layout>
     <SEO title="About" />
     <div className="container">
+      <div className="row devicons">
+        <DiReact size={32} />
+        <Node size={32} />
+        <Html size={32} />
+        <Css size={32} />
+        <Js size={32} />
+        <Bootstrap size={32} />
+        <Sass size={32} />
+        <Pg size={32} />
+        <Mongo size={32} />
+        <Aws size={32} />
+        <Travis size={32} />
+        <Git size={32} />
+        <Docker size={32} />
+        <Py size={32} />
+      </div>
       <div className="row">
         <Jello>
           <h1>Who am I?</h1>
@@ -23,6 +55,12 @@ const AboutPage: FC = () => (
           local institution called Geekwise Academy, part of Bitwise Industries.
           I completed all of their classes on these topics: HTML5, CSS3,
           Mobile-Friendly Sites(Bootstrap 3), ES6 Javascript, and Angular 2+.
+          <br />
+          <br />
+          Then I continued to learn the <i>hottest</i> technologies, such as
+          React at a highly selective software engineer program based in LA.
+          That was where I collaborated with fellow engineers in an highly agile
+          environment.
         </p>
       </div>
       <div className="row">
