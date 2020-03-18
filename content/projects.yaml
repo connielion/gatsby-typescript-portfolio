@@ -1,11 +1,12 @@
 - title: auxpack
-  subtitle: A Build Optimization Devtool
+  subtitle: A Build Optimization Devtool - made with React, Node, D3.js, Material UI + Sass, and Webpack.
   link: https://github.com/Auxpack/Auxpack
   img: auxpack.png
 
-- title: Basic Music
-  subtitle: Basic Music Player That lets you to play music
-  link: https://github.com/Mr404Found/Basic-Music-Player
+- title: Restaurant Site
+  subtitle: One of the first sites I've made when I first learnt HTML, CSS, Bootstrap.
+  link: https://geekwiseb2.github.io/restaurante-july-17-connielion/
+  img: restaurante.png
 
 - title: Age Calculator
   subtitle: Get Your Age
