@@ -13,7 +13,12 @@ const ContactPage: FC = () => (
     <div className="container">
       <h3>
         I'm based in California. Current time here is:{" "}
-        <Clock format={"HH:mm:ss"} ticking={true} timezone={"US/Pacific"} />
+        <Clock
+          format={"HH:mm:ss"}
+          ticking={true}
+          timezone={"US/Pacific"}
+          style={{ color: "orange" }}
+        />
       </h3>
       <ul className="contact-ul">
         <Rotate top left>
@@ -28,22 +33,14 @@ const ContactPage: FC = () => (
             <At />
             <br />
             My email is:{" "}
-            <a
-              href="mailto:connielion011@gmail.com"
-              style={{ color: "orange" }}
-            >
-              connielion011@gmail.com
-            </a>
+            <a href="mailto:connielion011@gmail.com">connielion011@gmail.com</a>
           </li>
         </Rotate>
         <Rotate top left>
           <li>
             <LinkedIn />
             <br />
-            My LinkedIn profile:{" "}
-            <a href="linkedin.com/in/connielion" style={{ color: "orange" }}>
-              here
-            </a>
+            My LinkedIn profile: <a href="linkedin.com/in/connielion">here</a>
           </li>
         </Rotate>
       </ul>

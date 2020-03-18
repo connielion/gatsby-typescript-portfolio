@@ -15,14 +15,14 @@ const IndexPage = () => (
         <div className="display-4 intro">
           <Bounce left>
             <span className="intro"> Hello, I'm Connie.</span>{" "}
+            <a
+              className="btn-warning btn"
+              target="_blank"
+              href="https://drive.google.com/open?id=13r0l13AVT1VNREgyKcCyptmBrWZCv-Zc"
+            >
+              My Resume <Open />
+            </a>
           </Bounce>
-          <a
-            className="btn-warning btn"
-            target="_blank"
-            href="https://drive.google.com/open?id=13r0l13AVT1VNREgyKcCyptmBrWZCv-Zc"
-          >
-            My Resume <Open />
-          </a>
         </div>
       </div>
       {/* Code Section */}
