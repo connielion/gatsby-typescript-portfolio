@@ -15,6 +15,9 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
       CL
     </a>
     <h1 className={styles.h1}>
+      <Link className="mr-5 icon" to="/">
+        home
+      </Link>
       <Link className="mr-5 icon" to="/projects">
         projects
       </Link>

@@ -14,7 +14,12 @@ const IndexPage = () => (
         <div className="display-3">
           Hello, I'm
           <span className="text-primary"> Connie Lai.</span>{" "}
-          <button className="btn-warning btn">Resume</button>
+          <a
+            className="btn-warning btn"
+            href="https://drive.google.com/open?id=13r0l13AVT1VNREgyKcCyptmBrWZCv-Zc"
+          >
+            My Resume
+          </a>
         </div>
       </div>
       {/* Code Section */}
