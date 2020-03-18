@@ -16,6 +16,7 @@ const ProjectsPage: FC = ({ data }) => {
           {projectList.map(({ node }) => {
             return (
               <Card
+                img={node.img}
                 cardTitle={node.title}
                 cardSubtitle={node.subtitle}
                 link={node.link}
@@ -40,6 +41,7 @@ export const query = graphql`
           subtitle
           link
           id
+          img
         }
       }
     }

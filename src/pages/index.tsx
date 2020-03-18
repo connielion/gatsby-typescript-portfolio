@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="container">
       <div className="row">
-        ><div className="my-5"></div>
+        <div className="my-5"></div>
         <div className="display-3">
           Hello, I'm
           <span className="text-primary"> Connie Lai.</span>{" "}
