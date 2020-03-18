@@ -12,3 +12,8 @@
   subtitle: The website you are lookin' at!
   link: /
   img: portfolio.png
+
+- title: Queue
+  subtitle: A Crowd-sourced Wait Time App
+  link: https://github.com/GraphQueue/queue
+  img: queue.png

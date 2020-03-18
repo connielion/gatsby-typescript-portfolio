@@ -4,13 +4,16 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 import { GiSandSnake } from "react-icons/gi"
+import Jello from "react-reveal/Jello"
 
 const AboutPage: FC = () => (
   <Layout>
     <SEO title="About" />
     <div className="container">
       <div className="row">
-        <h1>Who am I?</h1>
+        <Jello>
+          <h1>Who am I?</h1>
+        </Jello>
         <p>
           Well, I studied biology in college and did agricultural research as a
           lab assistant afterwards.
@@ -23,7 +26,9 @@ const AboutPage: FC = () => (
         </p>
       </div>
       <div className="row">
-        <h2>My hobbies:</h2>
+        <Jello>
+          <h2>My hobbies:</h2>
+        </Jello>
         <ul>
           <li>Swimming - I was in a swimming team at school.</li>
           <li>
