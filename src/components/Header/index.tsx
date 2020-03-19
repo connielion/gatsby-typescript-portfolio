@@ -2,7 +2,7 @@ import React, { FC } from "react"
 import { Link } from "gatsby"
 import { HeaderProps } from "./types"
 import ThemeToggle from "../ThemeToggle"
-import styles from "./styles.module.scss"
+import styles from "./styles.module.css"
 import {
   FaHome as Home,
   FaRegFolderOpen as Folder,
