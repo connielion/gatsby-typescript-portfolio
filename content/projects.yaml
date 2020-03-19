@@ -1,19 +1,19 @@
 - title: auxpack(open-sourced)
   subtitle: A Build Optimization Devtool - made with React, Node, D3.js, Material UI + Sass, and Webpack.
   link: https://github.com/Auxpack/Auxpack
-  img: static/auxpack.png
+  img: auxpack.png
 
 - title: Restaurant Site
   subtitle: One of the first sites I've made when I first learnt HTML, CSS, Bootstrap.
   link: https://geekwiseb2.github.io/restaurante-july-17-connielion/
-  img: static/restaurante.png
+  img: restaurante.png
 
 - title: Gatsby Typescript Portfolio
   subtitle: The website you are lookin' at!
   link: /
-  img: static/portfolio.png
+  img: portfolio.png
 
 - title: Queue(open-sourced)
   subtitle: A Crowd-sourced Wait Time App
   link: https://github.com/GraphQueue/queue
-  img: static/queue.png
+  img: queue.png
