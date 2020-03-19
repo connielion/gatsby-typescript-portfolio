@@ -3,8 +3,8 @@ require("ts-node").register()
 module.exports = {
   siteMetadata: {
     title: `Connie's Portfolio`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@room_js`,
+    description: `Connie Lai's dev portfolio`,
+    author: `Connie Lai`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -29,6 +29,13 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `./content/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "connie-devportfolio",
+        protocol: "https",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
