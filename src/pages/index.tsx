@@ -5,7 +5,6 @@ import Layout from "../components/Layout"
 import Image from "../components/Image"
 import SEO from "../components/Seo"
 import { Slide, Fade } from "react-reveal"
-import ReactTypingEffect from "react-typing-effect"
 
 const IndexPage = () => (
   <Layout>
@@ -52,11 +51,11 @@ const IndexPage = () => (
         <div className=" mx-5 my-4 h4 text-justify info">
           <code>return </code>
           'Have a nice day!'
-          {/* <ReactTypingEffect staticText="'Have a nice day!'" /> */}
           <br />
           <br />
           <span className="text-success">
-            // yeah, something gone wrong with navbar after deployment :(
+            // yeah, something gone wrong with navbar positioning :( Just
+            another bug I need to fix...
           </span>
         </div>
         <div className="h2 code mt-2 mb-3">{"}"}</div>
