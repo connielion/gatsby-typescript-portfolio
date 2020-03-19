@@ -1,4 +1,4 @@
-- title: auxpack
+- title: auxpack(open-sourced)
   subtitle: A Build Optimization Devtool - made with React, Node, D3.js, Material UI + Sass, and Webpack.
   link: https://github.com/Auxpack/Auxpack
   img: auxpack.png
@@ -13,7 +13,7 @@
   link: /
   img: portfolio.png
 
-- title: Queue
+- title: Queue(open-sourced)
   subtitle: A Crowd-sourced Wait Time App
   link: https://github.com/GraphQueue/queue
   img: queue.png
