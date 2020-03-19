@@ -51,7 +51,8 @@ const IndexPage = () => (
         <div className="h2 code mt-4 mb-3">else {"{"}</div>
         <div className=" mx-5 my-4 h4 text-justify info">
           <code>return </code>
-          <ReactTypingEffect staticText="'Have a nice day!'" />
+          'Have a nice day!'
+          {/* <ReactTypingEffect staticText="'Have a nice day!'" /> */}
           <br />
           <br />
           <span className="text-success">
