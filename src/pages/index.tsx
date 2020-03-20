@@ -31,26 +31,27 @@ const IndexPage = () => (
           borderRadius: "8px",
         }}
       >
-        <div className="code mt-4 mb-3">
+        <div className="h4 info">
           <div className="code mt-4 mb-3">
             if (<span>you_Are_Hiring</span>) {"{"}
           </div>
+
+          <div className="mx-5 my-4 text-justify info">
+            <code>return </code>
+            `Here's the teamplayer, self-starter, and a highly curious
+            Javascript specialist you are lookin' for!`
+          </div>
+          <div className=" code mt-2 mb-3">{"}"}</div>
+          <div className=" code mt-4 mb-3">else {"{"}</div>
+          <div className=" mx-5 my-4 text-justify info">
+            <code>return </code>
+            'Have a nice day!'
+            <br />
+            <br />
+            <span className="text-success">// Find me a bug?</span>
+          </div>
+          <div className="code mt-2 mb-3">{"}"}</div>
         </div>
-        <div className="mx-5 my-4 h4 text-justify info">
-          <code>return </code>
-          `Here's the teamplayer, self-starter, and a highly curious Javascript
-          specialist you are lookin' for!`
-        </div>
-        <div className="h3 code mt-2 mb-3">{"}"}</div>
-        <div className="h3 code mt-4 mb-3">else {"{"}</div>
-        <div className=" mx-5 my-4 h4 text-justify info">
-          <code>return </code>
-          'Have a nice day!'
-          <br />
-          <br />
-          <span className="text-success">// Find me a bug?</span>
-        </div>
-        <div className="h2 code mt-2 mb-3">{"}"}</div>
       </div>
     </div>
     {/* end container */}
