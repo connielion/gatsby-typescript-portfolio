@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa"
 
 const Header: FC<HeaderProps> = ({ siteTitle }) => (
-  <nav className={styles.header} class="navbar navbar-nav">
+  <nav className={styles.header} class="navbar">
     <Link className="mr-5 icon" to="/">
       <img
         src={"/logo.png"}
@@ -21,7 +21,7 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
         style={{ maxHeight: "80px", maxWidth: "100px" }}
       />
     </Link>
-    <h1 className={styles.h1}>
+    <h1 className={styles.h1} style={{ float: "right important!" }}>
       <Link className="mr-5 icon" to="/">
         <Home />
       </Link>

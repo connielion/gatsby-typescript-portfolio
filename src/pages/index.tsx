@@ -33,13 +33,15 @@ const IndexPage = () => (
       >
         <div className="h4 info">
           <div className="code mt-4 mb-3">
+            <span className="text-warning">// Hi :D</span>
+            <br />
             if (<span>you_Are_Hiring</span>) {"{"}
           </div>
 
           <div className="mx-5 my-4 text-justify info">
             <code>return </code>
-            `Here's the teamplayer, self-starter, and a highly curious
-            Javascript specialist you are lookin' for!`
+            `Here's the teamplayer, self-starter, and a highly curious engineer
+            you are lookin' for!`
           </div>
           <div className=" code mt-2 mb-3">{"}"}</div>
           <div className=" code mt-4 mb-3">else {"{"}</div>
@@ -48,7 +50,10 @@ const IndexPage = () => (
             'Have a wonderful day!'
             <br />
             <br />
-            <span className="text-success">// 99 more bugs to fix...</span>
+            <span className="text-warning">
+              // P.S. there's a weird bug on this page. I swear I googled over
+              10 times.
+            </span>
           </div>
           <div className="code mt-2 mb-3">{"}"}</div>
         </div>
