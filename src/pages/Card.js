@@ -2,7 +2,7 @@ import React from "react"
 import { FaGithub as Github } from "react-icons/fa"
 
 const Card = props => {
-  const { cardTitle, img, cardSubtitle, link } = props
+  const { cardTitle, img, cardSubtitle, link, info } = props
   return (
     <div className="col-lg-4 text-secondary">
       <div className="card mx-3 my-5">
@@ -10,6 +10,7 @@ const Card = props => {
         <div className="card-body">
           <h2 className="card-title">{cardTitle}</h2>
           <p className="card-text">{cardSubtitle}</p>
+          <p className="card-text">{info}</p>
           <a href={link} className="card-link">
             <Github /> Github
           </a>

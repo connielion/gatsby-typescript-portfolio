@@ -15,7 +15,7 @@ import Clock from "react-live-clock"
 const ContactPage: FC = () => (
   <Layout>
     <SEO title="Contact" />
-    <div className="container d-flex">
+    <div className="container">
       <div className="row">
         <b>
           I'm based in California. Current time here is:{" "}
@@ -25,31 +25,29 @@ const ContactPage: FC = () => (
             timezone={"US/Pacific"}
             style={{ color: "orange" }}
           />{" "}
-          .
         </b>
-        <ul className="contact-ul">
-          <Rotate top left>
-            <li>
-              <Phone /> <a href="tel:5592816498">559-281-6498</a>
-            </li>
-          </Rotate>
-          <Rotate top left>
-            <li>
-              <At />{" "}
-              <a href="mailto:connielion011@gmail.com">
-                connielion011@gmail.com
-              </a>
-            </li>
-          </Rotate>
-          <Rotate top left>
-            <li>
-              <a href="https://linkedin.com/in/connielion">
-                <LinkedIn /> linkedin.com/in/connielion
-              </a>
-            </li>
-          </Rotate>
-        </ul>
       </div>
+      <ul className="contact-ul">
+        <Rotate top left>
+          <li>
+            <At />{" "}
+            <a href="mailto:connielion011@gmail.com">connielion011@gmail.com</a>
+          </li>
+        </Rotate>
+        <Rotate top left>
+          <li>
+            <LinkedIn />{" "}
+            <a href="https://linkedin.com/in/connielion">
+              linkedin.com/in/connielion
+            </a>
+          </li>
+        </Rotate>
+        <Rotate top left>
+          <li>
+            <Phone /> <a href="tel:5592816498">559-281-6498</a>
+          </li>
+        </Rotate>
+      </ul>
     </div>
   </Layout>
 )

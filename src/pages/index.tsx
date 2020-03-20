@@ -45,10 +45,10 @@ const IndexPage = () => (
           <div className=" code mt-4 mb-3">else {"{"}</div>
           <div className=" mx-5 my-4 text-justify info">
             <code>return </code>
-            'Have a nice day!'
+            'Have a wonderful day!'
             <br />
             <br />
-            <span className="text-success">// Find me a bug?</span>
+            <span className="text-success">// 99 more bugs to fix...</span>
           </div>
           <div className="code mt-2 mb-3">{"}"}</div>
         </div>

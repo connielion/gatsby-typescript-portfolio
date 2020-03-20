@@ -21,26 +21,33 @@ import {
   DiDocker as Docker,
   DiPython as Py,
 } from "react-icons/di"
+import {
+  FaSwimmer as Swim,
+  FaPlaneDeparture as Plane,
+  FaLanguage,
+  FaPaintBrush,
+} from "react-icons/fa"
+import { GiKnifeFork as Fork } from "react-icons/gi"
 
 const AboutPage: FC = () => (
   <Layout>
     <SEO title="About" />
     <div className="container">
       <div className="row devicons">
-        <DiReact size={32} />
-        <Node size={32} />
-        <Html size={32} />
-        <Css size={32} />
-        <Js size={32} />
-        <Bootstrap size={32} />
-        <Sass size={32} />
-        <Pg size={32} />
-        <Mongo size={32} />
-        <Aws size={32} />
-        <Travis size={32} />
-        <Git size={32} />
-        <Docker size={32} />
-        <Py size={32} />
+        <DiReact size={32} className="devicon" />
+        <Node size={40} className="devicon" />
+        <Html size={32} className="devicon" />
+        <Css size={32} className="devicon" />
+        <Js size={32} className="devicon" />
+        <Bootstrap size={32} className="devicon" />
+        <Sass size={32} className="devicon" />
+        <Pg size={32} className="devicon" />
+        <Mongo size={32} className="devicon" />
+        <Aws size={32} className="devicon" />
+        <Travis size={32} className="devicon" />
+        <Git size={32} className="devicon" />
+        <Docker size={32} className="devicon" />
+        <Py size={32} className="devicon" />
       </div>
       <div className="row">
         <Jello>
@@ -65,26 +72,34 @@ const AboutPage: FC = () => (
       </div>
       <div className="row">
         <Jello>
-          <h2>My hobbies:</h2>
+          <h2>My hobbies</h2>
         </Jello>
         <ul>
-          <li>Swimming - I was in a swimming team at school.</li>
           <li>
-            Traveling - hope to go to Europe again, especially North, UK,
-            Germany. Australia and South Africa are also on the list since I
-            like animals. My favorite short trip destination is Central
-            California coast. Love whale-watching there.
+            Swimming <Swim size={32} /> - I was in a swimming team at school.
+            That said, I love going to the coast.
           </li>
-          <li>Eating - love to try new food!</li>
           <li>
-            Learn foreign language - currently working on my Japanese; taken 4
-            classes in Spanish, and am native Cantonese/Mandarin speaker.
+            Traveling <Plane size={32} />- hope to go to Europe again,
+            especially North, UK, Germany. Australia and South Africa are also
+            on the list since I like animals. My favorite short trip destination
+            is Central California coast. Love whale-watching there.
+          </li>
+          <li>
+            Eating <Fork size={32} />- Love to try new food!
+          </li>
+          <li>
+            Learn foreign language <FaLanguage size={32} /> - currently working
+            on my Japanese; taken 4 classes in Spanish, and am native
+            Cantonese/Mandarin speaker.
           </li>
           <li>
             Comics + Anime - I like to read manga and binge watch anime in my
             free time. Hayao Miyazaki films are some of my favorites.
           </li>
-          <li>Draw - my hobby ever since I was little.</li>
+          <li>
+            Draw <FaPaintBrush size={30} />- my hobby ever since I was little.
+          </li>
         </ul>
       </div>
       {/* end of row2 */}

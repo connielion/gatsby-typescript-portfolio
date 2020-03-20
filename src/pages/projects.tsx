@@ -23,6 +23,7 @@ const ProjectsPage: FC = ({ data }) => {
                   cardSubtitle={node.subtitle}
                   link={node.link}
                   key={node.id}
+                  info={node.info}
                 />
               )
             })}
@@ -45,6 +46,7 @@ export const query = graphql`
           link
           id
           img
+          info
         }
       }
     }
