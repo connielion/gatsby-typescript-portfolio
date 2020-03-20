@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto|Source+Code+Pro&display=swap");
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: "Poppins", sans-serif;
 }
-
 .scp {
   font-family: "Source Code Pro", monospace;
   font-size: 14px;

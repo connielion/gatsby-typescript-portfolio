@@ -23,7 +23,7 @@ const IndexPage = () => (
       </div>
       {/* Code Section */}
       <div
-        className="scp"
+        className="scp info"
         style={{
           backgroundColor: "#283341",
           color: "whitesmoke",
@@ -33,7 +33,7 @@ const IndexPage = () => (
       >
         <div className="code mt-4 mb-3">
           <div className="code mt-4 mb-3">
-            if (<span>ou_Are_Hiring</span>) {"{"}
+            if (<span>you_Are_Hiring</span>) {"{"}
           </div>
         </div>
         <div className="mx-5 my-4 h4 text-justify info">
