@@ -15,12 +15,19 @@ const IndexPage = () => (
           <h3>Hello, I'm Connie Lai.</h3>
           {"  "}
         </Slide>
+        <Slide right>
+          <h3 className="text-primary">
+            {" "}
+            <br />
+            Full-stack Software engineer.
+          </h3>
+        </Slide>
       </div>
-      <div className="row">
+      {/* <div className="row">
         <Slide right>
           <h3 className="text-primary">Full-stack JS engineer.</h3>
         </Slide>
-      </div>
+      </div> */}
       {/* Code Section */}
       <div
         className="scp info"
