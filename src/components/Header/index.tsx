@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa"
 
 const Header: FC<HeaderProps> = ({ siteTitle }) => (
-  <nav className={styles.header} class="navbar">
+  <nav className={styles.header} className="navbar">
     <Link className="mr-5 icon" to="/">
       <img
         src={"/logo.png"}
