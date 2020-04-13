@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Connie Lai",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "gatsby": "^2.19.7",
@@ -29,7 +30,6 @@
     "react-icons": "^3.9.0",
     "react-live-clock": "^4.0.3",
     "react-reveal": "^1.2.2",
-    "react-typist": "^2.0.5",
     "use-persisted-state": "^0.3.0"
   },
   "devDependencies": {

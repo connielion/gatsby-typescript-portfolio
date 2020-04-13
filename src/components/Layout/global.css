@@ -11,6 +11,10 @@ body {
   font-size: 14px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 p {
   font-family: "Roboto", sans-serif;
 }
@@ -35,9 +39,6 @@ code {
   transition: 0.5s;
 }
 
-.card:hover {
-  box-shadow: 10px 10px 5px grey;
-}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .info {

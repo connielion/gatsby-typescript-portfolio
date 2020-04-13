@@ -28,7 +28,7 @@ import {
   FaPaintBrush,
 } from "react-icons/fa"
 import { GiKnifeFork as Fork } from "react-icons/gi"
-
+import Jump from "react-reveal/Jump"
 const AboutPage: FC = () => (
   <Layout>
     <SEO title="About" />
@@ -50,30 +50,32 @@ const AboutPage: FC = () => (
         <Py size={32} className="devicon" />
       </div>
       <div className="row">
-        <Jello>
-          <h1>Who am I?</h1>
-        </Jello>
-        <p>
-          Well, I studied biology in college and did agricultural research as a
-          lab assistant afterwards.
-          <br />
-          <br />
-          While I was working, I had time to explore and learnt coding at a
-          local institution called Geekwise Academy, part of Bitwise Industries.
-          I completed all of their classes on these topics: HTML5, CSS3,
-          Mobile-Friendly Sites(Bootstrap 3), ES6 Javascript, and Angular 2+.
-          <br />
-          <br />
-          Then I continued to learn the <i>hottest</i> technologies, such as
-          React at a highly selective software engineer program based in LA.
-          That was where I collaborated with fellow engineers in an highly agile
-          environment.
-        </p>
+        <h2>About Connie</h2>
+        <Jump>
+          <p>
+            I majored in biology and graduated from University of California,
+            Riverside.
+            <br />
+            <br />
+            While I was working as a lab assistant after graduation, I had time
+            to explore and learnt coding at a institution called Geekwise
+            Academy, part of Bitwise Industries(located in Fresno,California). I
+            completed courses on HTML5, CSS3, Bootstrap, Javascript, and Angular
+            2+.
+            <br />
+            <br />
+            Then I continued to learn <i>"hot"</i> technologies, such as React
+            at a highly selective software engineer program based in LA. That
+            was where I collaborated with fellow engineers in an highly agile
+            environment.
+          </p>
+        </Jump>
       </div>
       <div className="row">
         <Jello>
           <h2>My hobbies</h2>
         </Jello>
+
         <ul>
           <li>
             Swimming <Swim size={32} /> - I was in a swimming team at school.
