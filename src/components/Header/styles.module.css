@@ -1,18 +1,18 @@
 .header {
   position: relative;
-  padding: 15px 30px;
 }
-.h1 {
-  font-size: 20px;
+.navlinks {
+  font-size: 18px;
   display: flex;
+  justify-content: center;
 }
-.h1 a {
+.navlinks a {
   color: #457bee;
   text-decoration: none;
 }
-.h1 a:hover {
-  transform: scale(1.2);
-  transition: transform 0.25s;
+.navlinks a:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
 }
 .themeToggleContainer {
   position: absolute;

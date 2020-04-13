@@ -9,11 +9,16 @@ import {
   FaTwitter as Twitter,
   FaGithub as Github,
   FaEnvelope as Mail,
+  FaLinkedin as LinkedIn,
 } from "react-icons/fa"
 
 const Header: FC<HeaderProps> = ({ siteTitle }) => (
-  <nav className={styles.header} className="navbar">
+  <nav
+    className={styles.header}
+    className="navbar d-flex justify-content-center"
+  >
     <Link className="mr-5 icon" to="/">
+      {/* LOGO */}
       <img
         src={"/logo.png"}
         alt="Logo"
@@ -21,21 +26,24 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
         style={{ maxHeight: "80px", maxWidth: "100px" }}
       />
     </Link>
-    <h1 className={styles.h1} style={{ float: "right important!" }}>
-      <Link className="mr-5 icon" to="/">
+    <h1 className={styles.navlinks} style={{ float: "right important!" }}>
+      {/* <Link className="mr-5 icon" to="/">
         <Home />
-      </Link>
+      </Link> */}
       <Link className="mr-5 icon" to="/projects">
         <Folder />
       </Link>
       <Link className="mr-5 icon" to="/about">
         about
       </Link>
-      <Link className="mr-5 icon" to="/contact">
+      {/* <Link className="mr-5 icon" to="/contact">
         <Mail />
-      </Link>
+      </Link> */}
       <a className="mr-5 icon" href="https://github.com/connielion">
         <Github />
+      </a>
+      <a className="mr-5 icon" href="linkedin.com/in/connielion">
+        <LinkedIn />
       </a>
     </h1>
     <div className={styles.themeToggleContainer}>
