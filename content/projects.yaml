@@ -1,6 +1,6 @@
 - title: auxpack
-  subtitle: Open-Sourced Build Optimization Devtool - made with React, Node, D3, Material UI + Sass, and Webpack.
-  info: This webpack plugin required a deep understanding of webpack bundler.
+  subtitle: Open-Sourced Build Optimization Devtool
+  info: Webpack plugin, React, Node, D3, Sass
   link: https://github.com/Auxpack/Auxpack
   img: auxpack.png
 
@@ -12,5 +12,5 @@
 - title: Queue
   subtitle: Open-sourced Crowd-sourced Wait Time App
   link: https://github.com/GraphQueue/queue
-  info: Made using Yelp API, React, socket.io, and Node/Express.
+  info: Yelp API, React, socket.io, and Node/Express.
   img: queue.png
