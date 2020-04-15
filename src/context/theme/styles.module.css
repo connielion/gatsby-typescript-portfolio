@@ -1,6 +1,6 @@
 .light {
   --color-text: #283341;
-  --color-bg: whitesmoke;
+  --color-bg: rgb(255, 255, 255);
 }
 
 .dark {
