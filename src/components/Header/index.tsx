@@ -27,18 +27,12 @@ const Header: FC<HeaderProps> = ({ siteTitle }) => (
       />
     </Link>
     <h1 className={styles.navlinks} style={{ float: "right important!" }}>
-      {/* <Link className="mr-5 icon" to="/">
-        <Home />
-      </Link> */}
       <Link className="mr-5 icon" to="/projects">
         <Folder />
       </Link>
       <Link className="mr-5 icon" to="/about">
         about
       </Link>
-      {/* <Link className="mr-5 icon" to="/contact">
-        <Mail />
-      </Link> */}
       <a className="mr-5 icon" href="https://github.com/connielion">
         <Github />
       </a>
