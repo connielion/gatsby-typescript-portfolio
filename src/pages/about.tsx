@@ -33,6 +33,13 @@ const AboutPage: FC = () => (
   <Layout>
     <SEO title="About" />
     <div className="container">
+      <div className="row">
+        <img
+          src="https://avatars3.githubusercontent.com/u/16534498?s=400&u=0cd9d3cebe935f2ccd9e2a09fd48af5a918aa341&v=4"
+          className="rounded mx-auto d-block pfp"
+          alt="Connie's photo"
+        />
+      </div>
       <div className="row devicons">
         <DiReact size={32} className="devicon" />
         <Node size={40} className="devicon" />
@@ -54,20 +61,25 @@ const AboutPage: FC = () => (
         <Jump>
           <p>
             I majored in biology and graduated from University of California,
-            Riverside.
+            Riverside. I finished curriculum at a highly selective software
+            engineer immersive program based in LA. I was able to experience
+            working in Agile environment, and doing daily SCRUM stand-ups while
+            learning on-demand technologies.
             <br />
             <br />
-            While I was working as a lab assistant after graduation, I had time
-            to explore and learnt coding at a institution called Geekwise
-            Academy, part of Bitwise Industries(located in Fresno,California). I
-            completed courses on HTML5, CSS3, Bootstrap, Javascript, and Angular
-            2+.
-            <br />
-            <br />
-            Then I continued to learn <i>"hot"</i> technologies, such as React
-            at a highly selective software engineer program based in LA. That
-            was where I collaborated with fellow engineers in an highly agile
-            environment.
+            <ul>
+              Tech Stack:
+              <li>ES6 Javascript</li>
+              <li>UI - React/Redux</li>
+              <li>Node/Express</li>
+              <li>NoSQL(ex. MongoDB)</li>
+              <li>SQL(ex. PostgreSQL)</li>
+              <li>Testing - Jest/Enzyme</li>
+              <li>Webpack</li>
+              <li>REST, GraphQL</li>
+              <li>HTML5, CSS3/SCSS</li>
+              <li>AWS</li>
+            </ul>
           </p>
         </Jump>
       </div>
