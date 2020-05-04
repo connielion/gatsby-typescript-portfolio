@@ -50,15 +50,15 @@ code {
 .card-body {
   background-color: whitesmoke;
 }
-
 footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: rgb(167, 167, 167);
   text-align: center;
 }
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .info {
@@ -73,6 +73,14 @@ footer {
   }
   .body {
     overflow-x: hidden;
+  }
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
   }
 }
 /* end media query */

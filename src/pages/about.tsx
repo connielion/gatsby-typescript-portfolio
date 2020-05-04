@@ -5,22 +5,22 @@ import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 import { GiSandSnake } from "react-icons/gi"
 import Jello from "react-reveal/Jello"
-import {
-  DiReact,
-  DiNodejs as Node,
-  DiHtml5 as Html,
-  DiCss3 as Css,
-  DiMongodb as Mongo,
-  DiPostgresql as Pg,
-  DiAws as Aws,
-  DiGit as Git,
-  DiJavascript1 as Js,
-  DiSass as Sass,
-  DiTravis as Travis,
-  DiBootstrap as Bootstrap,
-  DiDocker as Docker,
-  DiPython as Py,
-} from "react-icons/di"
+// import {
+//   DiReact,
+//   DiNodejs as Node,
+//   DiHtml5 as Html,
+//   DiCss3 as Css,
+//   DiMongodb as Mongo,
+//   DiPostgresql as Pg,
+//   DiAws as Aws,
+//   DiGit as Git,
+//   DiJavascript1 as Js,
+//   DiSass as Sass,
+//   DiTravis as Travis,
+//   DiBootstrap as Bootstrap,
+//   DiDocker as Docker,
+//   DiPython as Py,
+// } from "react-icons/di"
 import {
   FaSwimmer as Swim,
   FaPlaneDeparture as Plane,
@@ -33,14 +33,14 @@ const AboutPage: FC = () => (
   <Layout>
     <SEO title="About" />
     <div className="container">
-      <div className="row">
+      {/* <div className="row">
         <img
           src="https://avatars3.githubusercontent.com/u/16534498?s=400&u=0cd9d3cebe935f2ccd9e2a09fd48af5a918aa341&v=4"
           className="rounded mx-auto d-block pfp"
           alt="Connie's photo"
         />
-      </div>
-      <div className="row devicons">
+      </div> */}
+      {/* <div className="row devicons">
         <DiReact size={32} className="devicon" />
         <Node size={40} className="devicon" />
         <Html size={32} className="devicon" />
@@ -55,35 +55,44 @@ const AboutPage: FC = () => (
         <Git size={32} className="devicon" />
         <Docker size={32} className="devicon" />
         <Py size={32} className="devicon" />
-      </div>
+      </div> */}
       <div className="row">
-        <h2>About Connie</h2>
-        <Jump>
-          <p>
-            I majored in biology and graduated from University of California,
-            Riverside. I finished curriculum at a highly selective software
-            engineer immersive program based in LA. I was able to experience
-            working in Agile environment, and doing daily SCRUM stand-ups while
-            learning on-demand technologies.
-            <br />
-            <br />
-            <ul>
-              Tech Stack:
-              <li>ES6 Javascript</li>
-              <li>UI - React/Redux</li>
-              <li>Node/Express</li>
-              <li>NoSQL(ex. MongoDB)</li>
-              <li>SQL(ex. PostgreSQL)</li>
-              <li>Testing - Jest/Enzyme</li>
-              <li>Webpack</li>
-              <li>REST, GraphQL</li>
-              <li>HTML5, CSS3/SCSS</li>
-              <li>AWS</li>
-            </ul>
-          </p>
-        </Jump>
+        <div className="col">
+          <img
+            src="https://avatars3.githubusercontent.com/u/16534498?s=400&u=0cd9d3cebe935f2ccd9e2a09fd48af5a918aa341&v=4"
+            className="rounded mx-auto d-block pfp"
+            alt="Connie's photo"
+          />
+        </div>
+        <div className="col">
+          <h2>About Connie</h2>
+          <Jump>
+            <p>
+              I majored in biology and graduated from University of California,
+              Riverside. I finished curriculum at a highly selective software
+              engineer immersive program based in LA. I was able to experience
+              working in Agile environment, and doing daily SCRUM stand-ups
+              while learning on-demand technologies.
+              <br />
+              <br />
+              <ul>
+                Tech Stack:
+                <li>ES6 Javascript</li>
+                <li>UI - React/Redux</li>
+                <li>Node/Express</li>
+                <li>NoSQL(ex. MongoDB)</li>
+                <li>SQL(ex. PostgreSQL)</li>
+                <li>Testing - Jest/Enzyme</li>
+                <li>Webpack</li>
+                <li>REST, GraphQL</li>
+                <li>HTML5, CSS3/SCSS</li>
+                <li>AWS</li>
+              </ul>
+            </p>
+          </Jump>
+        </div>
       </div>
-      <div className="row">
+      {/* <div className="row">
         <Jello>
           <h2>My hobbies</h2>
         </Jello>
@@ -115,7 +124,7 @@ const AboutPage: FC = () => (
             Draw <FaPaintBrush size={30} />- my hobby ever since I was little.
           </li>
         </ul>
-      </div>
+      </div> */}
       {/* end of row2 */}
     </div>
   </Layout>
